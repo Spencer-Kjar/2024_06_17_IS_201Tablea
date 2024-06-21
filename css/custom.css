@@ -1,3 +1,91 @@
 body{
-    color: green
+    color:rgb(12, 12, 11);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(156, 231, 231);
+
+    padding:10px;
+    border:5px solid black;
+    margin: 20px;
 }
+
+h1{
+    font-size:56px;
+    font-weight:lighter;
+    text-align:center;
+    text-decoration:underline;
+}
+
+h2{
+    font-size:36px;
+    font-weight:lighter;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'brush script MT';
+    color:purple;
+
+    padding:10px;
+    border:5px solid black;
+    margin:20px;
+    border-radius:10px;
+}
+
+#top{
+    color:blue;
+}
+
+.whitebackgroundbox{
+    background-color:white;
+}
+
+.backgroundimage{
+    background-image:url("../assets/img/factory.webp");
+    opacity:75%;
+}
+
+.container{
+    position:relative;
+    padding:20px;
+    border-color:black;
+    border-style:solid;
+    box-sizing:border-box;
+}
+
+.header{
+background-color:lightgrey;
+border: 5px solid black;
+}
+.leftmenu{
+    background-color:lightgrey;
+    border: 5px solid black;
+    float:left;
+    width:20%;
+}
+.mainbody{
+    background-color:lightgrey;
+    border: 5px solid black;
+    float: left; 
+    width:60%;
+}
+.linktopage{
+    background-color:lightgrey;
+    border: 5px solid black;
+    float: left; 
+    width:60%;
+    font-size: 20px;
+}
+
+.rightmenu{
+    background-color:lightgrey;
+    border: 5px solid black;
+    float:right;
+    width:12%
+}
+.footer{
+    background-color:lightgrey;
+    border: 5px solid black;
+    margin-top:4800px;
+    margin-bottom:0px;
+}
+
+
